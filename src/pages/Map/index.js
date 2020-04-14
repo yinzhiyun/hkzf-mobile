@@ -1,9 +1,6 @@
-import React from 'react'
-
-class Map extends React.Component {
+import React from "react";
+export default class Map extends React.Component {
   render() {
-    return <div>地图找房</div>
+    return <div className="map">我是map</div>;
   }
 }
-
-export default Map

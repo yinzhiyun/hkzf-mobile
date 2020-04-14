@@ -1,16 +1,6 @@
-import React from 'react'
-import { Button } from 'antd-mobile'
-
-class Home extends React.Component {
+import React from "react";
+export default class Home extends React.Component {
   render() {
-    return (
-      <div>
-        <Button type="primary" disabled>
-          我是一个按钮
-        </Button>
-      </div>
-    )
+    return <div className="home">我是home</div>;
   }
 }
-
-export default Home
