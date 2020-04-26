@@ -1,0 +1,19 @@
+.find {
+  :global {
+    .find-title {
+      background-color: #ddd;
+      .icon-back {
+        padding: 0 10px;
+      }
+      .search {
+        padding-left: 0;
+        position: static;
+        top: 0;
+        height: 45px;
+        .icon-map {
+          color: #00ae66;
+        }
+      }
+    }
+  }
+}
